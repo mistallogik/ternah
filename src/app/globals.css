@@ -1,26 +1,121 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-boldonse), var(--font-geist), sans-serif;
+
+  --color-ink: #0b1410;
+  --color-brand: #067e48;
+  --color-brand-bright: #1fbd75;
+  --color-cta: #00b262;
+  --color-mint: #dbf1e5;
+  --color-mint-strong: #c3ebd5;
+  --color-mint-border: #c1e4d1;
+  --color-muted: #6f7772;
+  --color-forest: #0f291c;
+  --color-forest-deep: #0d2718;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  background: #ffffff;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #0b1410;
+  font-family: var(--font-sans);
+  overflow-x: clip;
+}
+
+/* Headline style shared by every Boldonse heading in the design */
+.display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: 0.449px;
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Figma "inside" stroke: drawn over the box without shrinking its content.
+   The element needs `relative` or `absolute` positioning. */
+.stroke-inside::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 5px solid var(--color-mint-border);
+  pointer-events: none;
+}
+
+/* Hero phone composition: grows up into place once, on first page load */
+@keyframes hero-grow {
+  from {
+    opacity: 0;
+    transform: translateY(48px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.hero-grow {
+  transform-origin: 50% 100%;
+  animation: hero-grow 1100ms cubic-bezier(0.23, 1, 0.32, 1) 350ms both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-grow {
+    animation: hero-fade 400ms ease-out both;
+  }
+  @keyframes hero-fade {
+    from { opacity: 0; }
+  }
+}
+
+/* Hero floating cards: gentle, endless bob. Uses `translate` so it never fights transforms.
+   Each card sets its own --float-dur / --float-delay so they drift out of sync. */
+@keyframes hero-float {
+  from {
+    translate: 0 0;
+  }
+  to {
+    translate: 0 -10px;
+  }
+}
+.hero-float {
+  animation: hero-float var(--float-dur, 3.6s) cubic-bezier(0.45, 0, 0.55, 1) var(--float-delay, 1.2s) infinite alternate both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-float {
+    animation: none;
+  }
+}
+
+/* Hero copy: soft rise-in on first load, staggered per line via inline animation-delay */
+@keyframes hero-enter {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+.hero-enter {
+  animation: hero-enter 800ms cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-enter {
+    animation-name: hero-fade;
+    animation-duration: 400ms;
+  }
 }

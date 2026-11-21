@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="2.50801" height="82.7036" viewBox="0 0 2.50801 82.7036" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Buttons Right">
+<path id="Lock" d="M0 1.61282e-05H1.67199C2.1337 1.61282e-05 2.50798 0.374033 2.50798 0.835406V81.8682C2.50798 82.3296 2.1337 82.7036 1.67199 82.7036H0V1.61282e-05Z" fill="url(#paint0_linear_0_27)"/>
+<path id="Lock (Stroke)" d="M1.67199 0.417711H0.417997V82.2859H1.67199C1.90284 82.2859 2.08999 82.0989 2.08999 81.8682V0.835406C2.08999 0.604719 1.90284 0.417711 1.67199 0.417711ZM0 1.61282e-05V82.7036H1.67199C2.1337 82.7036 2.50798 82.3296 2.50798 81.8682V0.835406C2.50798 0.374033 2.1337 1.61282e-05 1.67199 1.61282e-05H0Z" fill-rule="evenodd" clip-rule="evenodd" fill="#474C57"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_27" x1="1.25399" y1="1.61282e-05" x2="1.25399" y2="82.7036" gradientUnits="userSpaceOnUse">
+<stop offset="0.00827206" stop-color="#E6E6F9"/>
+<stop offset="0.0202206" stop-color="#596776"/>
+<stop offset="0.0431985" stop-color="#000102"/>
+<stop offset="0.0680147" stop-color="#849AAF"/>
+<stop offset="0.0891544" stop-color="#342E3D"/>
+<stop offset="0.520221" stop-color="#787283"/>
+<stop offset="0.889706" stop-color="#352F3E"/>
+<stop offset="0.913603" stop-color="#849AAF"/>
+<stop offset="0.946691" stop-color="#00081C"/>
+<stop offset="0.974265" stop-color="#596776"/>
+<stop offset="0.98989" stop-color="#9EA5B6"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="15.2087" height="14.0029" viewBox="0 0 15.2087 14.0029" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group" filter="url(#filter0_f_0_46)">
+<path id="Vector" d="M11.1883 4.36541C11.954 5.40645 10.9701 7.43057 8.99076 8.8864C7.01139 10.3423 4.78608 10.6785 4.02039 9.63747C3.25468 8.59643 4.23858 6.5723 6.21793 5.11646C8.19729 3.66062 10.4226 3.32436 11.1883 4.36541Z" fill="#749BFF"/>
+</g>
+<defs>
+<filter id="filter0_f_0_46" x="5.23141e-09" y="-9.23901e-08" width="15.2087" height="14.0029" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="1.88027" result="effect1_foregroundBlur_0_46"/>
+</filter>
+</defs>
+</svg>

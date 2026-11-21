@@ -1,0 +1,17 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="362.82" height="746" viewBox="0 0 362.82 746" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Bezel (Stroke)" filter="url(#filter0_i_0_34)">
+<path d="M294.269 0.835386H68.5513C31.1532 0.835386 0.835991 31.1306 0.835991 68.5017V677.498C0.835991 714.869 31.1532 745.165 68.5513 745.165H294.269C331.667 745.165 361.984 714.869 361.984 677.498V68.5017C361.984 31.1306 331.667 0.835386 294.269 0.835386ZM68.5513 0C30.6914 0 0 30.6692 0 68.5017V677.498C0 715.331 30.6915 746 68.5513 746H294.269C332.129 746 362.82 715.331 362.82 677.498V68.5017C362.82 30.6692 332.129 0 294.269 0H68.5513Z" fill-rule="evenodd" clip-rule="evenodd" fill="#1E1D1B"/>
+</g>
+<defs>
+<filter id="filter0_i_0_34" x="0" y="0" width="362.82" height="746" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="0.417689"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.960784 0 0 0 0 0.976471 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_0_34"/>
+</filter>
+</defs>
+</svg>

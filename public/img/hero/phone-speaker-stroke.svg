@@ -1,0 +1,17 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="83.8135" height="3.60228" viewBox="0 0 83.8135 3.60228" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Speaker (Stroke)" filter="url(#filter0_i_0_19)">
+<path d="M0 0H83.8135V0.865932C83.8135 1.95432 83.2805 2.66135 82.621 3.07592C81.9857 3.47527 81.2419 3.60228 80.7446 3.60228H3.06889C1.98793 3.60228 1.2312 3.20698 0.737985 2.68033C0.257706 2.16748 0.0478164 1.55276 0.00245956 1.12074L0 1.09731V0ZM0.901221 0.900569V1.04821C0.93378 1.31033 1.07426 1.72141 1.39601 2.06498C1.71374 2.40425 2.22978 2.70171 3.06889 2.70171H80.7446C81.1201 2.70171 81.6854 2.60011 82.1411 2.31364C82.5658 2.04665 82.9016 1.62004 82.912 0.900569H0.901221Z" fill-rule="evenodd" clip-rule="evenodd" fill="#272728"/>
+</g>
+<defs>
+<filter id="filter0_i_0_19" x="0" y="0" width="83.8135" height="4.50283" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1.35083"/>
+<feGaussianBlur stdDeviation="0.450278"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_0_19"/>
+</filter>
+</defs>
+</svg>
